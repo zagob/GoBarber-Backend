@@ -6,7 +6,6 @@ import {
     UpdateDateColumn,
     ObjectIdColumn
 } from 'typeorm';
-
 @Entity('notifications')
 class Notification {
     @ObjectIdColumn()
