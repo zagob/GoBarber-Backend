@@ -18,7 +18,7 @@ module.exports = {
     // database: ,
     useUnifiedTopology: true,
         entities: [
-            proces.env.MONGO_ENTITIES
+            process.env.MONGO_ENTITIES
         ],
 
     "extra": {
