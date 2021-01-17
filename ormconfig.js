@@ -16,10 +16,10 @@ module.exports = {
     // host: ,
     // port: 27017,
     // database: ,
-    useUnifiedTopology: true,
-        entities: [
-            process.env.MONGO_ENTITIES
-        ],
+    // useUnifiedTopology: true,
+    //     entities: [
+    //         process.env.MONGO_ENTITIES
+    //     ],
 
     "extra": {
         "ssl": {
